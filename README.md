@@ -6,7 +6,7 @@ Welcome to my data analysis project! This project explores the data job market l
 
 To navigate this analysis effectively, this project is built around a specific scenario exploring the 2023 job market data. The dataset provides a comprehensive look at global job postings, salaries, and technical requirements.
 
-To extract meaningful insights, the proje structured the investigation around answering five core questions:
+To extract meaningful insights, the project structured the investigation around answering five core questions:
 
 1. **What are the top-paying jobs for my role?**
 2. **What are the skills required for these top-paying roles?**
