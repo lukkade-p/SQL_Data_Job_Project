@@ -2,7 +2,8 @@
 Question: What are the top-paying data scientist jobs, and what skills are required? 
 - Identify the top 10 highest-paying Data Scientist jobs and the specific skills required for these roles.
 - Filters for roles with specified salaries that are remote
-- Why? It provides a detailed look at which high-paying jobs demand certain skills, helping job seekers understand which skills to develop that align with top salaries
+- Why? It provides a detailed look at which high-paying jobs demand certain skills, 
+helping job seekers understand which skills to develop that align with top salaries
 */
 
 -- Step 1: Filter and get only the top 10 highest-paying remote Data Scientist jobs first to reduce data size
@@ -39,12 +40,14 @@ ORDER BY
     salary_year_avg DESC;
 
 /*
-Here’s the breakdown of the most demanded skills for Data Scientists in 2023, based on the top-paying job postings:
+Here’s the breakdown of the most demanded skills for Data Scientists in 2023, based on 
+the top-paying job postings:
 • Python is leading with a count of 5.
 • SQL follows closely with a count of 4.
 • AWS is also highly sought after, with a count of 3.
 • Java and GCP each appear with a count of 2.
-• Other skills like Cassandra, Hadoop, Spark, Tableau, Azure, TensorFlow, Keras, PyTorch, Scikit-learn, DataRobot, C, Pandas, and NumPy each have a count of 1.
+• Other skills like Cassandra, Hadoop, Spark, Tableau, Azure, TensorFlow, Keras, PyTorch, Scikit-learn, 
+DataRobot, C, Pandas, and NumPy each have a count of 1.
 
 [
   {

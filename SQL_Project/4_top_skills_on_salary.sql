@@ -23,3 +23,55 @@ ORDER BY
     avg_salary DESC                                 -- Sort by highest average salary
 LIMIT 
     10;                                             -- Top 10 highest-paying skills
+
+/*
+Here is the breakdown of the highest-paying skills of the remote Data Scientist roles in 2023:
+• GDPR leads with the highest average salary at $217,737.50.
+• Golang follows closely in second place with an average salary of $208,750.00.
+• Atlassian and Selenium are also among the top earners, averaging $189,700.00 and $180,000.00, respectively.
+• Other specialized tools and languages like OpenCV, Neo4j, MicroStrategy, DynamoDB, PHP, 
+and Tidyverse round out the top list with average salaries ranging from $165,512.50 to $172,500.00.
+
+[
+  {
+    "skills": "gdpr",
+    "avg_salary": "217737.50"
+  },
+  {
+    "skills": "golang",
+    "avg_salary": "208750.00"
+  },
+  {
+    "skills": "atlassian",
+    "avg_salary": "189700.00"
+  },
+  {
+    "skills": "selenium",
+    "avg_salary": "180000.00"
+  },
+  {
+    "skills": "opencv",
+    "avg_salary": "172500.00"
+  },
+  {
+    "skills": "neo4j",
+    "avg_salary": "171655.00"
+  },
+  {
+    "skills": "microstrategy",
+    "avg_salary": "171146.58"
+  },
+  {
+    "skills": "dynamodb",
+    "avg_salary": "169670.33"
+  },
+  {
+    "skills": "php",
+    "avg_salary": "168125.00"
+  },
+  {
+    "skills": "tidyverse",
+    "avg_salary": "165512.50"
+  }
+]
+*/
